@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style1.css">
+    <title>Homework</title>
+</head>
+<body>
+    <h1>Form</h1>
+    <form action="/registration">
+    <label for="name">Name:</label>
+    <input 
+        type="text"
+        placeholder="Enter your name"
+        id="name"
+        required
+    >
+
+    <label for="age">Age:</label>
+    <input 
+        type="number"
+        id="age"
+        placeholder="Enter your age"
+        required
+        min="0"
+    
+    
+    >
+
+    <label for="country">Country:</label>
+    <input 
+        type="text" 
+        id="country"
+        placeholder="Enter your country"
+        required
+    >
+    
+    <label for="email">Email</label>
+    <input 
+        type="email" 
+        id="email"
+        placeholder="Enter your Email"
+        required
+    >
+
+    <label for="married">Married</label>
+    <select id="married">
+        <option value="">Enter</option>
+        <option value="yes">Yes</option>
+        <option value="no">No</option>
+    </select>
+
+   
+    <button type="reset">Reset</button>
+    <button type="submit">Submit</button>
+</form>
+</body>
+</html>
